@@ -1,0 +1,25 @@
+<template>
+<div class="child"> 
+
+<div>{{msg}}</div>
+
+</div> 
+
+
+</template>
+
+<script>
+export default {
+  name: 'child',
+  data () {
+    return {
+      msg: 'am child'
+    }
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+</style>
